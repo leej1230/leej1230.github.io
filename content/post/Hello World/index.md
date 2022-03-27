@@ -1,9 +1,9 @@
----
++++
 author = "Jaewoo Lee"
 title: "Hello World"
 date: 2022-03-26T18:51:53-07:00
 description = "Testing out Hugo website"
----
++++
 
 This will be my first time making a page using Hugo.
 <br>

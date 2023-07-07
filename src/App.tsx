@@ -1,4 +1,4 @@
-import Home from "./sections/landing/home";
+import Home from "./sections/landing/Home";
 import Timeline from "./sections/timeline/Timeline";
 
 function App() {

@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && cp -r dist docs",
+    "rebuild": "vite build && rm -R docs && cp -r dist docs",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "push-build": "tsc && vite build && cp -r dist docs && git add . && git commit -m 'for build' && git push"
+    "push-build": "tsc && vite rebuild && cp -r dist docs && git add . && git commit -m 'for build' && git push"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.19",

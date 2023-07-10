@@ -13,15 +13,17 @@ function Home() {
                         <Image objectFit="cover" position="absolute" zIndex="1" boxSize="100%" objectPosition="top" src='/img/portrait.png' alt='Jaewoo Portrait' />
                         <Box height="70%" position="absolute" width="50%" top="5%" right="10%" bgColor="green.100"/>
                     </Box>
-                    <Heading>
-                        Hello there 👋
-                    </Heading>
-                    <Heading>
-                        This is Jaewoo Lee
-                    </Heading>
-                    <Heading>
-                        a Passionate Programmer
-                    </Heading>
+                    <Container>
+                        <Heading>
+                            Hello there 👋
+                        </Heading>
+                        <Heading>
+                            This is Jaewoo Lee
+                        </Heading>
+                        <Heading>
+                            a Passionate Programmer
+                        </Heading>
+                    </Container>
                 </Stack>
             </Container>
 

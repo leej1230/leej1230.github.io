@@ -1,4 +1,38 @@
 import { Container, Heading, Text } from '@chakra-ui/react'
+import { Chrono } from "react-chrono"
+
+const history = [
+  {
+    date: new Date('2001-12-30'),
+    cardTitle: "Birthday",
+    cardDetailedText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illo nesciunt blanditiis expedita totam debitis voluptates officiis nulla, aliquam iusto consequuntur, aliquid autem deleniti temporibus, ut ad est? Doloribus, odit!"
+  },
+  {
+    date: new Date('2020-09-01'),
+    cardTitle: "Joined UC Davis",
+    cardDetailedText: "Pursued Computer Engineer"
+  },
+  {
+    date: new Date('2023-06-15'),
+    cardTitle: "Graduated UC Davis",
+    cardDetailedText: "Graduated UC Davis in 3 years with Computer Science degree"
+  },
+  {
+    date: new Date('2023-06-15'),
+    cardTitle: "Graduated UC Davis",
+    cardDetailedText: "Graduated UC Davis in 3 years with Computer Science degree"
+  },
+  {
+    date: new Date('2023-06-15'),
+    cardTitle: "Graduated UC Davis",
+    cardDetailedText: "Graduated UC Davis in 3 years with Computer Science degree"
+  },
+  {
+    date: new Date('2023-06-15'),
+    cardTitle: "Graduated UC Davis",
+    cardDetailedText: "Graduated UC Davis in 3 years with Computer Science degree"
+  },
+]
 
 function Timeline() {
   return (
@@ -7,9 +41,8 @@ function Timeline() {
             <Heading>
                 This is Timeline Section
             </Heading>
-            <Text>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nemo explicabo recusandae dignissimos beatae tempore vitae repellat amet facilis. Facilis ducimus suscipit in tenetur reprehenderit libero nisi ad nostrum vitae.
-            </Text>
+              <Chrono items={history} mode="HORIZONTAL"/>
+            {/* <Chrono items={history} mode="VERTICAL" /> */}
         </Container>
     </>
   )

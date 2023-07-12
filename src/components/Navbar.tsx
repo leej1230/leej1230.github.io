@@ -1,4 +1,4 @@
-import { Container, Flex, HStack, Link, Text, useColorModeValue } from '@chakra-ui/react'
+import { Flex, HStack, Link, Text, useColorModeValue } from '@chakra-ui/react'
 import { ReactNode } from 'react';
 
 const NavItems = [

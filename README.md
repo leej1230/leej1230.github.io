@@ -8,7 +8,7 @@
 ## Todos
 - [ ] Write up all the contents first
     - [x] Landing screen
-    - [ ] Navbar
+    - [x] Navbar
     - [x] Timeline
     - [ ] Projects
     - [ ] Tools I use

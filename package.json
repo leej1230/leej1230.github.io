@@ -12,11 +12,13 @@
     "push-build": "tsc && yarn rebuild && git add . && git commit -m 'for build' && git push"
   },
   "dependencies": {
+    "@chakra-icons/bootstrap": "^1.5.1",
     "@chakra-ui/icons": "^2.0.19",
     "@chakra-ui/react": "^2.7.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
     "framer-motion": "^10.12.18",
     "react": "^18.2.0",
     "react-chrono": "^2.2.2",

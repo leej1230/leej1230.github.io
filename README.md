@@ -10,7 +10,7 @@
     - [x] Landing screen
     - [x] Navbar
     - [x] Timeline
-    - [ ] Projects
+    - [x] Projects
     - [ ] Tools I use
     - [ ] Contact
 - [ ] Make a backgrounds using three js

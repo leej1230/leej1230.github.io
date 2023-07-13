@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Test Project",
+        "description": "This is a random test project",
+        "thumbnail": "/projectImg/images.png",
+        "githubLink": "https://google.com",
+        "demoLink": "https://yahoo.jp"
+    },
+    {
+        "title": "Test Project 2",
+        "description": "This is a random test project",
+        "thumbnail": "/projectImg/tesat2.jpeg",
+        "githubLink": "https://google.com",
+        "demoLink": "https://yahoo.jp"
+    }
+]

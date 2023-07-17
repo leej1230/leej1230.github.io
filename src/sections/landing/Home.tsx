@@ -3,7 +3,7 @@ import { Box, Container, Heading, Image, Stack } from '@chakra-ui/react'
 function Home() {
   return (
     <>
-        <Container minHeight="100vh" minWidth="100%" bg="red.100">
+        <Container minHeight="100vh" minWidth="100%" bg="red.100" paddingTop='60px'>
             <Heading>
                 This is Landing Section
             </Heading>

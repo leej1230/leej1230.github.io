@@ -11,6 +11,7 @@
     - [x] Navbar
     - [x] Timeline
     - [x] Projects
-    - [ ] Tools I use
-    - [ ] Contact
+    - [x] Tools I use
+    - [x] Contact
+- [ ] Polish the draft
 - [ ] Make a backgrounds using three js

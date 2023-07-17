@@ -1,0 +1,63 @@
+{
+    "languages": [
+        {
+            "icon":"devicon-python-plain",
+            "language": "Python"
+        },
+        {
+            "icon":"devicon-javascript-plain",
+            "language": "JavaScript"
+        },
+        {
+            "icon":"devicon-typescript-plain",
+            "language": "TypeScript"
+        }
+    ],
+    "frameworks": {
+        "frontend": [
+            {
+                "icon":"devicon-nodejs-plain",
+                "language": "Node.js"
+            },
+            {
+                "icon":"devicon-react-original",
+                "language": "React.js"
+            },
+            {
+                "icon":"devicon-bootstrap-plain",
+                "language": "Bootstrap"
+            }
+        ],
+        "backend": [
+            {
+                "icon":"devicon-django-plain",
+                "language": "Django"
+            },
+            {
+                "icon":"devicon-flask-original",
+                "language": "Flask"
+            },
+            {
+                "icon":"devicon-rails-plain",
+                "language": "Ruby on Rails"
+            }
+        ],
+        "other": [
+            {
+                "icon":"devicon-vscode-plain",
+                "language": "VScode"
+            },
+            {
+                "icon":"devicon-github-original",
+                "language": "Github"
+            },
+            {
+                "icon":"devicon-latex-original",
+                "language": "Latex"
+            }
+        ]
+    },
+    "devices": [
+
+    ]
+}

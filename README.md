@@ -6,7 +6,7 @@
 - <b>Three.js</b> to make a fancy background
 
 ## Todos
-- [ ] Write up all the contents first
+- [x] Write up all the contents first
     - [x] Landing screen
     - [x] Navbar
     - [x] Timeline
@@ -14,4 +14,10 @@
     - [x] Tools I use
     - [x] Contact
 - [ ] Polish the draft
+    - [x] Landing screen
+    - [ ] Navbar
+    - [ ] Timeline
+    - [ ] Projects
+    - [ ] Tools I use
+    - [ ] Contact
 - [ ] Make a backgrounds using three js

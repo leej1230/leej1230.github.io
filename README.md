@@ -16,7 +16,7 @@
 - [ ] Polish the draft
     - [x] Landing screen
     - [x] Navbar
-    - [ ] Timeline
+    - [x] Timeline
     - [ ] Projects
     - [ ] Tools I use
     - [ ] Contact

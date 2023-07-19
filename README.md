@@ -15,9 +15,10 @@
     - [x] Contact
 - [ ] Polish the draft
     - [x] Landing screen
-    - [ ] Navbar
+    - [x] Navbar
     - [ ] Timeline
     - [ ] Projects
     - [ ] Tools I use
     - [ ] Contact
 - [ ] Make a backgrounds using three js
+- [ ] Make it responsive

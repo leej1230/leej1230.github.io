@@ -1,4 +1,5 @@
-import { Flex, HStack, Link, Text, useColorModeValue } from '@chakra-ui/react'
+import { Flex, HStack, Link, Text, useColorModeValue } from '@chakra-ui/react';
+import {Link as Scroll} from 'react-scroll';
 import { ReactNode } from 'react';
 
 const NavItems = [
@@ -6,7 +7,6 @@ const NavItems = [
   'Timeline',
   'Projects',
   'Tools',
-  'Contact',
 ];
 
 const NavLink = ({ children }: { children: ReactNode }) => (
@@ -19,11 +19,14 @@ const NavLink = ({ children }: { children: ReactNode }) => (
       bg: useColorModeValue('gray.200', 'gray.700'),
     }}
     href={'#'}>
-    {children}
+    <Scroll to={children} smooth offset={-60}>
+      {children}
+    </Scroll>
   </Link>
 );
 
 function Navbar() {
+
   return (
     <>
         <Flex as="header" position="fixed" backgroundColor="purple.100" width="100%" py="3" justifyContent="space-between" zIndex="999" height="60px">

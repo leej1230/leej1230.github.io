@@ -11,7 +11,7 @@ const tabElements: JSX.Element[] = [
 
 function Tools() {
   return (
-    <Container minHeight="100vh" minWidth="100%" bg="yellow.100">
+    <Container minHeight="100vh" minWidth="100%" bg="yellow.100" id="Tools">
         <Heading>
             This is Tools Section
         </Heading>

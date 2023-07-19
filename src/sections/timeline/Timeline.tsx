@@ -37,7 +37,7 @@ const history = [
 function Timeline() {
   return (
     <>
-        <Container minHeight="100vh" minWidth="100%" bg="blue.100">
+        <Container minHeight="100vh" minWidth="100%" bg="blue.100" id='Timeline'>
             <Heading>
                 This is Timeline Section
             </Heading>

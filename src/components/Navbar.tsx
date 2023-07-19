@@ -1,15 +1,15 @@
 import { Flex, HStack, Link, Text, useColorModeValue } from '@chakra-ui/react';
 import {Link as Scroll} from 'react-scroll';
-import { ReactNode } from 'react';
+// import { ReactNode } from 'react';
 
-const NavItems = [
+const NavItems:string[] = [
   'Home',
   'Timeline',
   'Projects',
   'Tools',
 ];
 
-const NavLink = ({ children }: { children: ReactNode }) => (
+const NavLink = ({ children }: { children: string }) => (
   <Link
     px={2}
     py={1}

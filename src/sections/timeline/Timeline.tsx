@@ -57,8 +57,8 @@ function Timeline() {
           <Heading>My History of Journey</Heading>
           <Chrono items={history} mode="HORIZONTAL"/>
           <Heading margin='1rem'>My Resume</Heading>
-          <Center>
-            <Iframe url="/Jaewoo_Lee_JPResume.pdf" width="80%" height="500rem"/>
+          <Center height='70vh' paddingBottom='1rem'>
+            <Iframe url="/Jaewoo_Lee_JPResume.pdf" width="80%" height="100%"/>
           </Center>
           
         </Container>

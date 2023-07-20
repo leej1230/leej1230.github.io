@@ -1,16 +1,37 @@
 [
     {
-        "title": "Test Project",
-        "description": "This is a random test project",
-        "thumbnail": "/projectImg/images.png",
-        "githubLink": "https://google.com",
-        "demoLink": "https://yahoo.jp"
+        "title": "Portfolio Website",
+        "description": "This is 3rd version. Mainly learned Vite, Chakra, and Three",
+        "thumbnail": "/projectImg/portfolioweb.png",
+        "githubLink": "https://github.com/leej1230/leej1230.github.io",
+        "demoLink": "https://leej1230.github.io"
     },
     {
-        "title": "Test Project 2",
-        "description": "This is a random test project",
-        "thumbnail": "/projectImg/tesat2.jpeg",
-        "githubLink": "https://google.com",
-        "demoLink": "https://yahoo.jp"
+        "title": "Reposer",
+        "description": "My first mobile app project. Assists user's meditation experience. Learned Flutter.",
+        "thumbnail": "/projectImg/reposer.png",
+        "githubLink": "https://github.com/leej1230/Reposer",
+        "demoLink": "https://play.google.com/store/apps/details?id=nao.nagashima.reposer"
+    },
+    {
+        "title": "Browse Ya Later",
+        "description": "My first chrome extension. Let users to save the page they want to visit later.",
+        "thumbnail": "/projectImg/browseyalater.jpeg",
+        "githubLink": "https://github.com/leej1230/BrowseYaLater",
+        "demoLink": "https://chrome.google.com/webstore/detail/browse-ya-later/hppkidphphifjehdkhknfeebgecmjahj"
+    },
+    {
+        "title": "Spotify Status Share",
+        "description": "Project that I learned how backend works with frontend. Used Flask and Spotify API. Shares what user is listening on Spotify like Discord.",
+        "thumbnail": "/projectImg/spotifystatusshare.png",
+        "githubLink": "https://github.com/leej1230/Spotify-Share-API",
+        "demoLink": "https://github.com/leej1230/Spotify-Share-API"
+    },
+    {
+        "title": "Pong with Processing",
+        "description": "Used processing and programmed Pong from 0. On top of ordinary Pong, added innovating game system.",
+        "thumbnail": "/projectImg/pong.png",
+        "githubLink": "https://github.com/leej1230/Atari-ish_PingPong_Game",
+        "demoLink": "https://github.com/leej1230/Atari-ish_PingPong_Game"
     }
 ]

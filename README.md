@@ -12,13 +12,12 @@
     - [x] Timeline
     - [x] Projects
     - [x] Tools I use
-    - [x] Contact
 - [ ] Polish the draft
     - [x] Landing screen
     - [x] Navbar
     - [x] Timeline
-    - [ ] Projects
+    - [x] Projects
     - [ ] Tools I use
-    - [ ] Contact
+    - [ ] Footer
 - [ ] Make a backgrounds using three js
 - [ ] Make it responsive

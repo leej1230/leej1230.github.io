@@ -59,11 +59,11 @@ const ProjectCard = ({ children }: { children: Project }) => (
 function Projects() {
     return (
         <Container minHeight="100vh" minWidth="100%" bg="green.100" id="Projects">
-            <Heading>
-                This is Projects Section
+            <Heading p='1%'>
+                My Projects
             </Heading>
-            <Flex justifyContent="center">
-                <SimpleGrid columns={2} spacing={10}>
+            <Flex p='1%' justifyContent="center">
+                <SimpleGrid columns={[1,2,3]} spacing={10}>
                     {projectArray.map((project) => (
                         <ProjectCard key={project.title}>{project}</ProjectCard>
                     ))}

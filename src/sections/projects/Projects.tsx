@@ -13,7 +13,7 @@ interface Project{
 const projectArray:Project[] = rawdata as Project[];
 
 const ProjectCard = ({ children }: { children: Project }) => (
-    <Card maxW='sm'>
+    <Card maxW='sm' _hover={{shadow:"lg", m:'-0.3rem'}}>
         <CardBody>
             <Image objectFit="cover" src={children.thumbnail} />
             <Stack mt='6' spacing='3'>

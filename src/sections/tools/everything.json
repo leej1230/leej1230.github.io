@@ -11,6 +11,38 @@
         {
             "icon":"devicon-typescript-plain",
             "language": "TypeScript"
+        },
+        {
+            "icon":"devicon-go-original-wordmark",
+            "language": "GoLang"
+        },
+        {
+            "icon":"devicon-cplusplus-plain",
+            "language": "C++"
+        },
+        {
+            "icon":"devicon-c-plain",
+            "language": "C"
+        },
+        {
+            "icon":"devicon-html5-plain",
+            "language": "Pure HTML"
+        },
+        {
+            "icon":"devicon-css3-plain",
+            "language": "Pure CSS"
+        },
+        {
+            "icon":"devicon-r-original",
+            "language": "R"
+        },
+        {
+            "icon":"devicon-ruby-plain",
+            "language": "Ruby"
+        },
+        {
+            "icon":"devicon-dart-plain",
+            "language": "Dart"
         }
     ],
     "frameworks": {

@@ -58,6 +58,14 @@
             {
                 "icon":"devicon-bootstrap-plain",
                 "language": "Bootstrap"
+            },
+            {
+                "icon":"devicon-nextjs-original",
+                "language": "Next.js"
+            },
+            {
+                "icon":"devicon-materialui-plain",
+                "language": "Material UI"
             }
         ],
         "backend": [
@@ -72,6 +80,10 @@
             {
                 "icon":"devicon-rails-plain",
                 "language": "Ruby on Rails"
+            },
+            {
+                "icon":"devicon-express-original-wordmark",
+                "language": "Express.js"
             }
         ],
         "other": [
@@ -86,6 +98,22 @@
             {
                 "icon":"devicon-latex-original",
                 "language": "Latex"
+            },
+            {
+                "icon":"devicon-firebase-plain",
+                "language": "Firebase"
+            },
+            {
+                "icon":"devicon-mongodb-plain",
+                "language": "Mongo DB"
+            },
+            {
+                "icon":"devicon-windows8-original",
+                "language": "Windows"
+            },
+            {
+                "icon":"devicon-apple-original",
+                "language": "macOS"
             }
         ]
     },

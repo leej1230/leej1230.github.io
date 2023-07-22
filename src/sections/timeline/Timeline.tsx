@@ -31,7 +31,7 @@ const history = [
   {
     date: new Date('2020-03-15'),
     cardTitle: "Graduated Ritsumeikan Uji HS",
-    cardDetailedText: "Earned IB Diploma"
+    cardDetailedText: "Received IB Diploma"
   },
   {
     date: new Date('2020-09-01'),

@@ -31,7 +31,7 @@ function Navbar() {
     <>
         <Flex as="header" position="fixed" backgroundColor="purple.100" width="100%" py="3" justifyContent="space-between" zIndex="999" height="60px">
             <Flex mx="2" justifyContent="center">
-                <Text py="1">Jaewoo's Website</Text>
+                <Text paddingLeft='2' py="1" as='b'>Jaewoo's Website</Text>
             </Flex>
             <Flex mx="2" justifyContent="center">
                 <HStack align="center" mx="2">

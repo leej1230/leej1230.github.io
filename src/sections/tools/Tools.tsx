@@ -11,9 +11,9 @@ const tabElements: JSX.Element[] = [
 
 function Tools() {
   return (
-    <Container minHeight="100vh" minWidth="100%" bg="yellow.100" id="Tools">
+    <Container minHeight="100vh" minWidth="100%" id="Tools">
         <Heading>
-            This is Tools Section
+            My Tools
         </Heading>
 
         <Tabs isFitted>
@@ -22,7 +22,7 @@ function Tools() {
             <Tab>Frameworks / Tools</Tab>
             <Tab>Devices</Tab>
           </TabList>
-          <TabIndicator mt="-1.5px" height="2px" bg="blue.500" borderRadius="1px" />
+          <TabIndicator mt="-1.5px" height="2px" borderRadius="1px" />
           <TabPanels>
             {
               tabElements.map((tabElement) => (

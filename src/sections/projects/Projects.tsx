@@ -58,7 +58,7 @@ const ProjectCard = ({ children }: { children: Project }) => (
 
 function Projects() {
     return (
-        <Container minHeight="100vh" minWidth="100%" bg="green.100" id="Projects">
+        <Container minHeight="100vh" minWidth="100%" id="Projects">
             <Heading p='1%'>
                 My Projects
             </Heading>

@@ -32,7 +32,7 @@ function Home() {
 
     return (
     <>
-        <Container minHeight="100vh" minWidth="100%" bg="red.100" paddingTop='60px' id='Home'>
+        <Container minHeight="100vh" minWidth="100%" paddingTop='60px' id='Home'>
             <Stack marginTop='10%' direction={["column","row"]} justifyContent='center' align="center">
                 <Box width={['100%', '50%']}>
                     <Heading>

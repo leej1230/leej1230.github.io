@@ -53,7 +53,7 @@ const history = [
 function Timeline() {
   return (
     <>
-        <Container paddingTop='1rem' minHeight="100vh" minWidth="100%" bg="blue.100" id='Timeline'>
+        <Container paddingTop='1rem' minHeight="100vh" minWidth="100%" id='Timeline'>
           <Heading>My History of Journey</Heading>
           <Chrono items={history} mode="HORIZONTAL"/>
           <Heading margin='1rem'>My Resume</Heading>

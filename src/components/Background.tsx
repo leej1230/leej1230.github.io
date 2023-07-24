@@ -1,12 +1,19 @@
-import { useRef, useState, useEffect, forwardRef } from 'react';
-import { Canvas, useFrame } from '@react-three/fiber';
+import React, { useRef, useState, useEffect, forwardRef } from 'react';
+import { Canvas, MeshProps, useFrame } from '@react-three/fiber';
+import { Mesh } from 'three';
 
-const Box = forwardRef(({ active, ...props }, ref) => {
-  const meshRef = useRef();
+interface BoxProps extends MeshProps {
+  active: boolean;
+  setActive: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Box = forwardRef<Mesh, BoxProps>(({ active, setActive, ...props }, ref) => {
+  const meshRef = useRef<Mesh>(null);
+
   const [hovered, setHover] = useState(false);
 
-  useFrame((state, delta) => {
-    if (active) {
+  useFrame((_, delta) => {
+    if (active && meshRef.current) {
       meshRef.current.rotation.x += delta;
       meshRef.current.rotation.y += delta;
     }
@@ -15,7 +22,7 @@ const Box = forwardRef(({ active, ...props }, ref) => {
   return (
     <mesh
       {...props}
-      ref={ref || meshRef} // Use the forwarded ref or the local ref
+      ref={ref || meshRef}
       scale={active ? 1.5 : 1}
       onClick={() => setActive(!active)}
       onPointerOver={() => setHover(true)}
@@ -57,16 +64,16 @@ function Background() {
   const [box1Active, setBox1Active] = useState(false);
   const [box2Active, setBox2Active] = useState(false);
 
-  const box1Ref = useRef();
-  const box2Ref = useRef();
+  const box1Ref = useRef<Mesh>(null);
+  const box2Ref = useRef<Mesh>(null);
 
   return (
     <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100vh' }}>
       <Canvas>
         <ambientLight />
         <pointLight position={[10, 10, 10]} />
-        <Box position={[-1.2, 0, 0]} ref={box1Ref} active={box1Active} />
-        <Box position={[1.2, 0, 0]} ref={box2Ref} active={box2Active} />
+        <Box position={[-1.2, 0, 0]} ref={box1Ref} active={box1Active} setActive={setBox1Active} />
+        <Box position={[1.2, 0, 0]} ref={box2Ref} active={box2Active} setActive={setBox2Active} />
       </Canvas>
     </div>
   );

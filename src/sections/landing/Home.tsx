@@ -7,7 +7,8 @@ import TextTransition, { presets } from 'react-text-transition';
 const intros:string[] = [
     "Passionate Programmer",
     "UC Davis Alumni",
-    "Python Enthusiast"
+    "Python Enthusiast",
+    "Engineer at teamLab"
 ]
 
 function Home() {

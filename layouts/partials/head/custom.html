@@ -1,0 +1,18 @@
+{{ if eq .RelPermalink "/" }}
+<script>
+(function() {
+    // Prevent loop
+    var ref = document.referrer;
+    var currentHostname = window.location.hostname;
+    if (ref && ref.includes(currentHostname)) {
+        return;
+    }
+
+    // Set to en if the browser language is not set to JP
+    var currentLang = navigator.language;
+    if (!currentLang.startsWith('ja')) {
+        window.location.replace('/en/');
+    }
+})();
+</script>
+{{ end }}

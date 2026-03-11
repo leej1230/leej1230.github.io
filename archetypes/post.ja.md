@@ -11,3 +11,5 @@ hidden: false
 comments: true
 draft: true
 ---
+
+場所取り

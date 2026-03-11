@@ -6,7 +6,8 @@ if "%~1"=="" (
 )
 
 echo 記事を作成しています: %~1
-hugo new post/%~1/index.ja.md
-hugo new post/%~1/index.en.md
+hugo new --kind post.ja post/%~1/index.ja.md
+hugo new --kind post.en post/%~1/index.en.md
+
 
 echo 完了しました。

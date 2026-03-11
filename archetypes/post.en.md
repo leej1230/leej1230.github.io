@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: 
+description: Welcome
 date: {{ .Date }}
 image: 
 math: 
@@ -11,3 +11,7 @@ hidden: false
 comments: true
 draft: true
 ---
+
+Hello World
+
+> This article was translated with the help of AI and checked by myself. ~~AI translation sucks!~~

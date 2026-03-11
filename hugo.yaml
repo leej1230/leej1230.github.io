@@ -33,10 +33,10 @@ languages:
 services:
     # Change it to your Disqus shortname before using
     disqus:
-        shortname: "hugo-theme-stack"
+        shortname: 
     # GA Tracking ID
     googleAnalytics:
-        id:
+        id: G-DXWT9CLE68
 
 pagination:
     pagerSize: 3
@@ -50,7 +50,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /favicon.png
 
     footer:
         since: 2026

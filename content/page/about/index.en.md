@@ -42,6 +42,10 @@ I might add more if I come up with anything new
 - Airplanes
 - Tomatoes
 
+### Others
+- Left-right confusion
+- Lefty
+
 ### Skills
 #### C++
 - Used it during student and at work. Apparently it's my most used language.

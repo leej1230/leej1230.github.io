@@ -95,7 +95,8 @@ I might add more if I come up with anything new
 - Currently, just like any other tool, they have their pros and cons. 
 - Personally, I don't actively use them just because like doing everything hands-on.
 
-### Certifications
+### Certifications etc
+- TOEFL IBT 100/120
 - AWS Cloud Practitioner (2023/08 - 2026/08)
 
 > This article was translated with the help of AI and checked by myself. ~~AI translation sucks!~~

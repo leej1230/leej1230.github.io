@@ -7,6 +7,8 @@ math:
 license: CC BY-NC
 categories: 
 tags:
+    - "振り返り"
+    - "学業"
 hidden: false
 comments: true
 draft: false
@@ -84,3 +86,5 @@ draft: false
 とりあえず、今回はここまでで、続きもそのうち出します。そのうち。書くことが無いとは書きましたが、無いと言うよりかは思い出せないというのが近いので、もし他に気になる話があればお気軽にコメントに書いてください。返信したり追記するので。
 
 それではまた。
+
+[次]({{<ref "post/UCDMemoir2/index.ja.md">}})

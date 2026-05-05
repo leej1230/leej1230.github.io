@@ -38,6 +38,11 @@ services:
     googleAnalytics:
         id: G-DXWT9CLE68
 
+sitemap:
+  filename: sitemap.xml
+  changefreq: weekly
+  priority: 0.5
+
 pagination:
     pagerSize: 3
 

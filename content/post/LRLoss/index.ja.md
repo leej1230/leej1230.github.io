@@ -2,7 +2,7 @@
 title: "左右判別方法ランキング"
 description: 
 date: 2026-07-15T01:37:51+09:00
-image: 
+image: "thumbnail.jpg"
 math: 
 license: CC BY-NC
 categories: 
@@ -11,6 +11,8 @@ hidden: false
 comments: true
 draft: false
 ---
+
+> <cite>わからないけど、なんとかもなってる。なってもらってる。
 
 # 左右盲
 という言葉を聞いたことありますか。

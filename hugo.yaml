@@ -1,8 +1,9 @@
 baseurl: https://leej1230.github.io/
-languageCode: en-us
 theme: hugo-theme-stack
 title: Jaewoo Lee
 copyright: Jaewoo Lee
+
+enableRobotsTXT: true
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -14,6 +15,7 @@ hasCJKLanguage: true
 
 languages:
     en:
+        languageCode: en-us
         languageName: English
         title: Lee's Soliloquy
         weight: 1
@@ -22,6 +24,7 @@ languages:
                 subtitle:
                   ex-teamLab
     ja:
+        languageCode: ja
         languageName: 日本語
         title: りーのひとりごと
         weight: 2

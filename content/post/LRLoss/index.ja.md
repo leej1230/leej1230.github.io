@@ -7,6 +7,8 @@ math:
 license: CC BY-NC
 categories: 
 tags:
+    - "ライフハック"
+    - "ランキング"
 hidden: false
 comments: true
 draft: false

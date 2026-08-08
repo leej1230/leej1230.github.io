@@ -33,6 +33,9 @@ languages:
                 subtitle:
                   元チームラボ所属
 
+minify:
+    disableXML: true
+
 services:
     # Change it to your Disqus shortname before using
     disqus:

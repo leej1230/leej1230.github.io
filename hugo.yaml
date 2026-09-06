@@ -65,7 +65,7 @@ params:
 
     footer:
         since: 2026
-        customText:
+        customText: '<a href="/privacy">Privacy Policy</a>'
 
     dateFormat:
         published: Jan 02, 2006

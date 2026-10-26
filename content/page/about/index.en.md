@@ -21,7 +21,8 @@ I might add more if I come up with anything new
     - I enrolled simply because I liked computers, not like I had deep experience. I was initially overwhelmed by the brilliance of people around me. Despite experiencing setbacks, I hung in there and studied hard.
 - Luckily graduated with my bachelor's degree in three years. While I was feeling a bit lost on what to do next, I land a job at teamLab.
     - I originally joined on a web developer team to experience large-scale web development, but I ended up doing various things on the art side instead.
-- Left teamLab after working there for two and a half years <- where I am right now
+- Left teamLab after working there for two and a half years
+- Enrolled in the Graduate School of Information Science and Technology at The University of Tokyo in April 2026 <- where I am right now
 
 ## About Me
 ### Likes
